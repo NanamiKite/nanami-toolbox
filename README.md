@@ -14,19 +14,14 @@
 
 ## Skills
 
-目前有三个，都与写作相关，各管一块：
-
-- [engineering-doc-clarifier](skills/engineering-doc-clarifier/README.md) —— 重写中英文技术文档，保持技术语义不变
-- [oss-contribution-writer](skills/oss-contribution-writer/README.md) —— 写开源项目的 issue、pull request 和 review 回复
-- [readme-writer](skills/readme-writer/README.md) —— 写或重写仓库根目录的 README
-
-各 skill 的适用范围和规则见各自目录下的 README；给 agent 用的指令本体是同目录的 `SKILL.md`。
+目前有三个，都是写作相关的 agent skill。索引和选型见 [skills/README.md](skills/README.md)。
 
 ## Repository Structure
 
 ```text
 .
 └── skills/
+    ├── README.md     # skill 索引
     ├── engineering-doc-clarifier/
     │   ├── SKILL.md    # agent 指令
     │   └── README.md   # 功能说明
