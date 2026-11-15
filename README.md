@@ -48,4 +48,4 @@
 
 ## License
 
-See `LICENSE`.
+MIT，见 [LICENSE](LICENSE)。
