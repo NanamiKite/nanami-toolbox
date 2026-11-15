@@ -37,23 +37,35 @@
 - 中文使用对应的工程写作规则
 - 不把技术文档润色成营销文案
 
-目录：
+### OSS Contribution Writer
 
-```text
-skills/
-└── engineering-doc-clarifier/
-    └── SKILL.md
-```
+用于起草和修改开源项目里的 issue、pull request 和 review 回复，让内容简洁、以证据为主、方便维护者审阅。
+
+- 写得像一个真正参与过这项工作的人在沟通
+- 优先写清楚：观察到了什么、改了什么、亲自测了什么、还有什么不确定
+- 不编造测试、观察和结论
+- 不用模板化的报告段落和空话填充
+
+不用于 README、设计文档等一般技术文档。
+
+### README Writer
+
+用于编写或重写仓库根目录的 README.md，支持中文和英文。
+
+- 让新读者快速看懂：项目是什么、能做什么、怎么试用、去哪找更多文档
+- 用自然的语言写，避免报告腔和产品宣传腔
+- 不发明仓库里不存在的功能、命令和进度
+
+不用于架构文档、API 文档、CONTRIBUTING、changelog 这类文档。
 
 ## Repository Structure
 
 ```text
 .
-├── skills/      # AI / Agent skills
-├── scripts/     # 开发和系统辅助脚本
-├── cli/         # 小型命令行工具
-├── snippets/    # 可复用的小片段
-└── docs/        # 说明和示例
+└── skills/
+    ├── engineering-doc-clarifier/    # 技术文档重写
+    ├── oss-contribution-writer/      # 开源 issue / PR / review 写作
+    └── readme-writer/                # 仓库 README 写作
 ```
 
 目录会随着工具增加而调整，不强行维持固定分类。
